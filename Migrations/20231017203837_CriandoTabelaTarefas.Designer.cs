@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TrilhaApiDesafio.Context;
 
@@ -11,9 +12,11 @@ using TrilhaApiDesafio.Context;
 namespace TrilhaApiDesafio.Migrations
 {
     [DbContext(typeof(OrganizadorContext))]
-    partial class OrganizadorContextModelSnapshot : ModelSnapshot
+    [Migration("20231017203837_CriandoTabelaTarefas")]
+    partial class CriandoTabelaTarefas
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
