@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RqUnHN9ZLr8kJDSoaoLgBg3uylx6cZ7RuVfwmhToSS99J7BmvgYXLvi9Sl/sdagDT5pnO2/l9nd1H5/2HTJZtg==",
+  "dgSpecHash": "zz6zgF0Kwipvv+uNl88gOfye9C5y1Ed3E6a85vtljhDSmkrI7p7wxoo5egsw7cSu4c91gnzUPYJx64UG7MWQFg==",
   "success": true,
-  "projectFilePath": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj",
+  "projectFilePath": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ederh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ederh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -19,6 +19,7 @@
     "C:\\Users\\ederh\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\ederh\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",
     "C:\\Users\\ederh\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.12\\microsoft.entityframeworkcore.analyzers.7.0.12.nupkg.sha512",
+    "C:\\Users\\ederh\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.12\\microsoft.entityframeworkcore.inmemory.7.0.12.nupkg.sha512",
     "C:\\Users\\ederh\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.12\\microsoft.entityframeworkcore.relational.7.0.12.nupkg.sha512",
     "C:\\Users\\ederh\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.12\\microsoft.entityframeworkcore.sqlserver.7.0.12.nupkg.sha512",
     "C:\\Users\\ederh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

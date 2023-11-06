@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B2xo30yHuQeS/hR0BXlmkiLq9Ygmynr5Rg7ybuNLY7+rj3sFjlFbvEy4Afho8jBXWKd6BImPLieb7gIpvdYaHQ==",
+  "dgSpecHash": "FMvhE3MevCA8orQKmyxSifVf+6SPIiix87FGcqhrwVCJNwdoFReWaX674wUaiHJFpFtpKfWbiVaBpCLb9M2goA==",
   "success": true,
-  "projectFilePath": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj",
+  "projectFilePath": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ederh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ederh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

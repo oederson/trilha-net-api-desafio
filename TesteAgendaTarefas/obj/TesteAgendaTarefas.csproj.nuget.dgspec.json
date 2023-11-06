@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj": {}
+    "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj": {}
   },
   "projects": {
-    "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj": {
+    "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj",
+        "projectUniqueName": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj",
         "projectName": "TesteAgendaTarefas",
-        "projectPath": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj",
+        "projectPath": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj",
         "packagesPath": "C:\\Users\\ederh\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TesteAgendaTarefas\\obj\\",
+        "outputPath": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TesteAgendaTarefas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ederh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj": {
-                "projectPath": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj"
+              "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj": {
+                "projectPath": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj"
               }
             }
           }
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.5.0, )"
@@ -81,18 +89,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj": {
+    "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj",
+        "projectUniqueName": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj",
         "projectName": "TrilhaApiDesafio",
-        "projectPath": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj",
+        "projectPath": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj",
         "packagesPath": "C:\\Users\\ederh\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TrilhaApiDesafio\\obj\\",
+        "outputPath": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TrilhaApiDesafio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ederh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -171,7 +179,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -256,6 +256,22 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/7.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.12"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/7.0.12": {
         "type": "package",
         "dependencies": {
@@ -3188,6 +3204,20 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.7.0.12.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/7.0.12": {
+      "sha512": "Tdrvt7y1OKmyPjyzFlYeLnoe0zI78ypWlG87ck5cIYYVnst60fklbrVGxUMXdkwPiYmnGVIUL5H0lfh+dFwD1Q==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/7.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.7.0.12.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.12": {
@@ -8369,6 +8399,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.EntityFrameworkCore >= 7.0.12",
+      "Microsoft.EntityFrameworkCore.InMemory >= 7.0.12",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "TrilhaApiDesafio >= 1.0.0",
       "coverlet.collector >= 3.2.0",
@@ -8382,11 +8414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj",
+      "projectUniqueName": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj",
       "projectName": "TesteAgendaTarefas",
-      "projectPath": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj",
+      "projectPath": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TesteAgendaTarefas\\TesteAgendaTarefas.csproj",
       "packagesPath": "C:\\Users\\ederh\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TesteAgendaTarefas\\obj\\",
+      "outputPath": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TesteAgendaTarefas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ederh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8403,8 +8435,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj": {
-              "projectPath": "C:\\GIT-Arrumando-PASTAS\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj"
+            "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj": {
+              "projectPath": "C:\\Users\\ederh\\wexdio\\trilha-net-api-desafio\\TrilhaApiDesafio\\TrilhaApiDesafio.csproj"
             }
           }
         }
@@ -8419,6 +8451,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.12, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[7.0.12, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.5.0, )"
@@ -8456,7 +8496,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
